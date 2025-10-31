@@ -1,16 +1,38 @@
-# movie_mate
+# 🎬 Movie Mate
 
-A new Flutter project.
+Movie Mate is a Flutter application built mainly for learning and practicing advanced Flutter concepts — not for design.
+The focus of this project was to apply and experiment with core technical features, rather than building a visually polished UI.
 
-## Getting Started
+## 🚀 Main Focus Areas
 
-This project is a starting point for a Flutter application.
+🎨 Theme Extension </br>
+Implemented Flutter’s Theme Extension to manage themes in a clean, scalable, and maintainable way.
+</br> </br>
+🧠 API Caching</br>
+Added smart caching for API responses to reduce unnecessary network calls and improve performance.
+</br> </br>
+📄 Pagination</br>
+Implemented smooth pagination for movie lists to handle large datasets efficiently.
+</br></br>
+🔒 Secure Data Management</br>
+Used .env and environment variables to securely store and access sensitive data like API tokens.
+</br></br>
+🐞 Error Tracking with Sentry</br>
+Integrated Sentry to automatically track and report errors during runtime.
+</br>
 
-A few resources to get you started if this is your first Flutter project:
+## 🧰 Tech Stack
+Flutter </br>
+Dart </br>
+Flutter Bloc – State management </br>
+Retrofit + Dio – API integration </br>
+GetIt – Dependency injection </br>
+Flutter ScreenUtil – Responsive UI </br>
+Sentry – Error monitoring </br>
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 📸 Design Note
+The app’s design was not a priority — my main goal was to practice and implement technical concepts like theming, caching, pagination, secure data, and error tracking.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+#FlutterMentors3
+
