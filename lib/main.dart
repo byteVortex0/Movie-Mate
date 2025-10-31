@@ -1,3 +1,5 @@
+import 'dart:developer';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
@@ -25,8 +27,7 @@ void main() async {
 
   await SentryFlutter.init(
     (options) {
-      options.dsn =
-          'https://fdfe1b92de71ca70fdd4d4a865ee03a0@o4510279937753088.ingest.us.sentry.io/4510279939457024';
+      options.dsn = EnvVariables.instance.envSentryDsn;
       options.sendDefaultPii = true;
     },
     appRunner: () => runApp(
