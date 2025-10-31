@@ -19,7 +19,7 @@ Used .env and environment variables to securely store and access sensitive data 
 </br></br>
 🐞 Error Tracking with Sentry</br>
 Integrated Sentry to automatically track and report errors during runtime.
-</br></br>
+</br>
 
 ## 🧰 Tech Stack
 Flutter </br>
