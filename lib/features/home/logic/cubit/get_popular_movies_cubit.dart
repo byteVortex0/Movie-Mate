@@ -81,6 +81,7 @@ class GetPopularMoviesCubit extends Cubit<GetPopularMoviesState> {
       await fetchPopularMovies(page: nextPage);
       _currentPage = nextPage;
     } finally {
+      await Future.delayed(const Duration(milliseconds: 300));
       _isLoadingMore = false;
     }
   }
